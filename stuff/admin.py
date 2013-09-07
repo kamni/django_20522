@@ -34,7 +34,7 @@ class DependentChildInlineFormSet(BaseInlineFormSet):
 class DependentChildInline(admin.TabularInline):
     model = DependentChild
     form = DependentChildAdminForm
-    # uncomment this to test at the formset level
+    # uncomment this to test at the formset level; comment out form
     #formset = DependentChildInlineFormSet
 
 
